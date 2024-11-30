@@ -1,0 +1,64 @@
+# ========== Unity ==========
+
+# Text files with Unity metadata should have consistent line endings
+*.meta text eol=lf
+
+# Ensure correct line endings for C# and script files
+*.cs text eol=lf
+*.shader text eol=lf
+*.txt text eol=lf
+*.json text eol=lf
+*.xml text eol=lf
+
+# Unity Asset files
+*.unity binary
+*.prefab binary
+*.mat binary
+*.asset binary
+*.controller binary
+*.anim binary
+*.physicsMaterial2D binary
+*.physicMaterial binary
+*.mask binary
+*.tmpro text eol=lf
+
+# Unity scene files are text but often require merge tools
+*.scene text eol=lf
+*.prefab text eol=lf
+
+# ========== Other ==========
+
+# Make sure images are treated as binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.tiff binary
+*.bmp binary
+*.psd binary
+*.exr binary
+*.hdr binary
+*.dds binary
+*.tga binary
+
+# Audio files are also binary
+*.mp3 binary
+*.wav binary
+*.ogg binary
+*.aiff binary
+
+# Video files are binary
+*.mp4 binary
+*.avi binary
+*.mov binary
+
+# Fonts
+*.ttf binary
+*.otf binary
+
+# Ensure that Unity's .dll files are handled as binary
+*.dll binary
+
+# Other file types that Unity might use (like logs, database files)
+*.log binary
+*.db binary
